@@ -1,0 +1,30 @@
+body{
+    background-color: darkblue;
+}
+main{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+}
+h1{
+    text-align: center;
+    color: #FFFFFF;
+}
+img{
+    border-radius: 10px;
+    height: 400px;
+    width: 600px;
+}
+
+@media screen and (max-width: 600px){
+    body{
+        background-color: blueviolet;
+    }
+    img{
+        height: 300px;
+        width: 350px;
+    }
+}
